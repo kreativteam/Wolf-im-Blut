@@ -475,11 +475,12 @@ section.spacer {
 	color:#fcfcfc;
 }
 
-.spacer.green,.section.green {
-	background:#1bac91;
+.spacer.red,.section.red {
+	background:#ad3a26;
+	color:#fff;
 }
 
-.spacer.green,.section.green h4 {
+.spacer.red,.section.red h4 {
 	color:#fff;
 }
 
