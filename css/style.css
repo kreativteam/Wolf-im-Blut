@@ -502,7 +502,7 @@ section.spacer.bg3 {
 	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
-	margin:0;	
+	margin:0;
 }
 
 section.spacer blockquote.large:before {
@@ -891,10 +891,10 @@ section#about {
 /* Contact Form */
 
 .validation {
-    color: red;
+    color: #444;
     display:none;
     margin: 0 0 20px;
-    font-weight:400;
+    font-weight:600;
     font-size:13px;
 }
 
@@ -910,9 +910,9 @@ section#about {
 }
 
 #errormessage {
-    color: red;
+    color: #f36f36;
     display:none;
-    border:1px solid red;
+    border:1px solid #f36f36;
     text-align:center;
     padding:15px;
     font-weight:600;
@@ -993,7 +993,7 @@ div.cform-response-output {
 }
 .cform-not-valid-tip {
 	color: #888;
-	border: 1px dotted #ad3729 !important;
+	border: 1px dotted #f36f36 !important;
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
