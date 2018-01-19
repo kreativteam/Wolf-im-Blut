@@ -476,7 +476,7 @@ section.spacer {
 }
 
 .spacer.red,.section.red {
-	background:#ad3a26;
+	background:#006700;
 	color:#fff;
 }
 
@@ -488,7 +488,7 @@ section.spacer {
 	background:#ffe873;
 }
 .spacer.orange,.section.orange {
-	background:#f36f36;
+	background:#5E8038;
 }
 
 section.spacer.bg2 {
@@ -756,7 +756,7 @@ section#services .service-box h2 {
 }
 
 section#services.section.orange .service-box:hover {
-	background:#f36518;
+	background:#5E8038;
 }
 
 
@@ -910,9 +910,9 @@ section#about {
 }
 
 #errormessage {
-    color: #f36f36;
+    color: #5E8038;
     display:none;
-    border:1px solid #f36f36;
+    border:1px solid #5E8038;
     text-align:center;
     padding:15px;
     font-weight:600;
@@ -993,7 +993,7 @@ div.cform-response-output {
 }
 .cform-not-valid-tip {
 	color: #888;
-	border: 1px dotted #f36f36 !important;
+	border: 1px dotted #5E8038 !important;
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
@@ -1328,7 +1328,6 @@ i.icon-white {
   *background-color: #333;
 }
 
-
 .btn.btn-theme:hover {
 	background: #333 !important;
 }
@@ -1431,8 +1430,8 @@ i.icon-white {
 .btn-danger {
   color: #ffffff;
   text-shadow: none;
-  background-color: #f36f36;
-  *background-color: #f36f36;
+  background-color: #5E8038;
+  *background-color: #5E8038;
   background-image: none;
   border-color: none;
   filter:none;
@@ -1691,7 +1690,7 @@ i.icon-white {
  display: block;
  text-align:center
 }
- .job-position: {
+ .job-position {
  margin-bottom: 1.5em;
 }
  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
