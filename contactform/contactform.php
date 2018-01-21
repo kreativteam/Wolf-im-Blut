@@ -1,12 +1,9 @@
 <?php
 
-require('phpmailer/PHPMailer.php');
-require('phpmailer/SMTP.php');
-
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "fabian-blum@outlook.de";
+    $email_to = "webmaster@wolf-im-blut.de";
     $email_subject = "Wolf-im-Blut Kontaktformular";
  
     function died($error) {
@@ -48,24 +45,11 @@ if(isset($_POST['email'])) {
     $email_message .= "Subject: ".clean_string($subject)."\n";
     $email_message .= "Message: ".clean_string($message)."\n";
  
-
-    $mail = new PHPMailer(); 
-
-    $mail->IsSMTP(); 
-    $mail->Host     = 'smtp.strato.de'; 
-    $mail->SMTPAuth = true;  
-    $mail->Username = 'webmaster@wolf-im-blut.de'; 
-    $mail->Password = 'x';  
-
-    $mail->setFrom($email, $name);
-    $mail->Subject  = $subject;
-    $mail->Body     =  $message;
-    if(!$mail->send()) {
-      echo 'Message was not sent.';
-      echo 'Mailer error: ' . $mail->ErrorInfo;
-    } else {
-      echo 'Message has been sent.';
-    }
+// create email headers
+$headers = 'From: '.$email."\r\n".
+'Reply-To: '.$email."\r\n" .
+'X-Mailer: PHP/' . phpversion();
+@mail($email_to, $email_subject, $email_message, $headers);
 
 ?>
  
