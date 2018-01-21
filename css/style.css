@@ -472,27 +472,28 @@ section.inner {
 
 section.spacer {
 	padding:90px 0 70px;
-	color:#fcfcfc;
+	color:#fafafa;
 }
 
-.spacer.red,.section.red {
+.spacer.green,.section.green {
 	background:#2b820e;
 	color:#fff;
 }
 
-.spacer.red,.section.red h4 {
+.section.grey{
+	background: #f2f2f2;
+}
+
+.spacer.green,.section.green h4 {
 	color:#fff;
 }
 
 .spacer.yellow,.section.yellow  {
 	background:#ffe873;
 }
-.spacer.orange,.section.orange {
-	background:#2b820e;
-}
 
 section.spacer.bg2 {
-	background: url(../img/bg/bg-2.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/bg/bg-7.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
 	margin:0;	
