@@ -1,73 +1,73 @@
 ::-moz-selection {
-background:#006700;
+background:#2b820e;
 }
 ::selection {
-background:#006700;
+background:#2b820e;
 }
 
 .navbar .brand a:hover {
-	color:#5E8038;
+	color:#2b820e;
 }
 
 
 
 ul#menu-main > li > a:hover {
-	color: #5E8038;
+	color: #2b820e;
 }
 
 
 ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.selected, ul#menu-main li a.selected:active    {
-	color: #5E8038;
+	color: #2b820e;
 }
 #header-wrapper h1 span {
-	color:#5E8038;
+	color:#2b820e;
 }
 
 #header-wrapper input[type=submit] {
-	background: #5E8038 !important;
+	background: #2b820e !important;
 }
 
 #theme-form input[type=submit] {
-	background: #5E8038 !important;
+	background: #2b820e !important;
 }
 
 .btn.btn-theme {
-	background: #5E8038 !important;
+	background: #333 !important;
 }
 
 /* blog */
 .home-post .post-meta {
-	background: #5E8038;
+	background: #2b820e;
 }
 
 /* com */
 .tabbable ul.nav-tabs li.active a,.tabbable ul.nav-tabs li a:hover {
-	color: #5E8038;
+	color: #2b820e;
 }
 .accordion .accordion-heading a.active {
-	color: #5E8038;
+	color: #2b820e;
 }
 
 #tweet ul li a {
-	color: #5E8038;
+	color: #2b820e;
 }
 
 
 /* works */
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-	background: #5E8038;
-	border-color: #5E8038;
+	background: #2b820e;
+	border-color: #2b820e;
 }
 
 .portfolio .portfolio-overlay {
-	background: #5E8038;
+	background: #2b820e;
 }
 
 /* icon */
 i.icon-bgdark:hover {
-	background: #5E8038;
+	background: #2b820e;
 }
 
 i.icon-bgdark.active {
-	background: #006700;
+	background: #2b820e;
 }
