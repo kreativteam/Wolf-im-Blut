@@ -476,8 +476,8 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#2b820e;
-	color:#fff;
+	background:#830d19;
+	color:#0077b2;
 }
 
 .section.grey{
@@ -757,7 +757,7 @@ section#services .service-box h2 {
 }
 
 section#services.section.orange .service-box:hover {
-	background:#5E8038;
+	background:#fbeb78;
 }
 
 
@@ -800,7 +800,7 @@ section#blog {
 .home-post .post-meta {
 	padding:20px;
 	overflow:hidden;
-	color:#fcfcfc;
+	color:#0077B2;
 }
 .home-post .post-meta i {
 	float:left;
@@ -821,7 +821,7 @@ section#blog {
 	color:#ddd;
 }
 .home-post .post-meta span.tags a {
-	color:#fcfcfc;
+	color:#0077B2;
 }
 
 
@@ -911,9 +911,9 @@ section#about {
 }
 
 #errormessage {
-    color: #5E8038;
+    color: #fbeb78;
     display:none;
-    border:1px solid #5E8038;
+    border:1px solid #fbeb78;
     text-align:center;
     padding:15px;
     font-weight:600;
@@ -994,7 +994,7 @@ div.cform-response-output {
 }
 .cform-not-valid-tip {
 	color: #888;
-	border: 1px dotted #5E8038 !important;
+	border: 1px dotted #fbeb78 !important;
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
@@ -1431,8 +1431,8 @@ i.icon-white {
 .btn-danger {
   color: #ffffff;
   text-shadow: none;
-  background-color: #5E8038;
-  *background-color: #5E8038;
+  background-color: #fbeb78;
+  *background-color: #fbeb78;
   background-image: none;
   border-color: none;
   filter:none;
