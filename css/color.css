@@ -23,8 +23,8 @@ a {
 
 /* Spacer + Sections */
 
-.spacer.blue, .section.blue {
-	background: #8ACFE7;
+.spacer.red, .section.red {
+	background: #830d19;
 	color: #f7f7f7;
 }
 
@@ -41,40 +41,40 @@ a {
 	color: #003c5f;
 }
 
-.section.orange h4, .section.blue h4 {
+.section.orange h4, .section.red h4, .section.red h2 {
 	color: #f7f7f7;
 }
 
-#about h4, #philosophie h4, #contact h4 {
+.section.grey h4, #works h4 {
 	color: #64000a;
 }
 
-.section.orange p, .section.blue p, .section.blue ul {
-	color: #313131;
+.section.orange p, .section.red p, .section.red ul {
+	color: #f7f7f7;
 }
 
 .navbar .brand a:hover {
-	color: #a8e2dc;
+	color: #830d19;
 }
 
 ul#menu-main>li>a:hover {
-	color: #a8e2dc;
+	color: #830d19;
 }
 
 ul#menu-main>li>a:focus, ul#menu-main>li>a:active, ul#menu-main>li>a.selected, ul#menu-main li a.selected:active {
-	color: #a8e2dc;
+	color: #830d19;
 }
 
 #header-wrapper h1 span {
-	color: #a8e2dc;
+	color: #830d19;
 }
 
 #header-wrapper input[type=submit] {
-	background: #a8e2dc !important;
+	background: #830d19 !important;
 }
 
 #theme-form input[type=submit] {
-	background: #a8e2dc !important;
+	background: #830d19 !important;
 }
 
 .btn.btn-theme {
@@ -85,39 +85,44 @@ ul#menu-main>li>a:focus, ul#menu-main>li>a:active, ul#menu-main>li>a.selected, u
 
 .home-post .post-meta {
 	background: #f7f7f7;
+	color: #830d19;
+}
+
+.home-post .post-meta span.tags a {
+	color: #830d19;
 }
 
 /* com */
 
 .tabbable ul.nav-tabs li.active a, .tabbable ul.nav-tabs li a:hover {
-	color: #a8e2dc;
+	color: #830d19;
 }
 
 .accordion .accordion-heading a.active {
-	color: #a8e2dc;
+	color: #830d19;
 }
 
 #tweet ul li a {
-	color: #a8e2dc;
+	color: #830d19;
 }
 
 /* works */
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-	background: #8ACFE7;
-	border-color: #8ACFE7;
+	background: #830d19;
+	border-color: #830d19;
 }
 
 .portfolio .portfolio-overlay {
-	background: #8ACFE7;
+	background: #830d19;
 }
 
 /* icon */
 
 i.icon-bgdark:hover {
-	background: #a8e2dc;
+	background: #830d19;
 }
 
 i.icon-bgdark.active {
-	background: #a8e2dc;
+	background: #830d19;
 }

@@ -1104,7 +1104,12 @@ footer ul.social-networks li i.icon-bgdark {
 }
 
 footer ul.social-networks li a i.icon-instagram:hover {
-	background: #ba7b3d;
+	background: #cd486b;
+	color: #fff;
+}
+
+footer ul.social-networks li a i.icon-facebook:hover {
+	background: #3B5998;
 	color: #fff;
 }
 
