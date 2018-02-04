@@ -186,6 +186,7 @@ ul, ol {
 	line-height: 1.5;
 	/* 24px */
 	margin: 0 0 1.5em 0;
+	padding: 0 1.2rem;
 }
 
 body, input, textarea {}
@@ -506,18 +507,6 @@ section.spacer {
 	color: #fafafa;
 }
 
-.section.grey {
-	background: #f2f2f2;
-}
-
-.spacer.green, .section.green h4 {
-	color: #fff;
-}
-
-.spacer.yellow, .section.yellow {
-	background: #ffe873;
-}
-
 section.spacer.bg2 {
 	background: url(../img/bg/bg-8.jpg) 50% 0 no-repeat fixed;
 	width: 100%;
@@ -811,10 +800,6 @@ section#services.section.orange .service-box:hover {
 }
 
 /* === section blog === */
-
-section#blog {
-	background: #f2f2f2;
-}
 
 .home-post {
 	background: #fff;

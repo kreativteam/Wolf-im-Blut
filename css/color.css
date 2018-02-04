@@ -21,16 +21,35 @@ a {
 	color: #454545;
 }
 
-.spacer.green, .section.green {
+/* Spacer + Sections */
+
+.spacer.blue, .section.blue {
 	background: #8ACFE7;
 	color: #f7f7f7;
 }
 
-.section.orange h4, .section.green h4 {
-	color: #64000A;
+.section.grey {
+	background: #f2f2f2;
 }
 
-.section.orange p, .section.green p, .section.green ul {
+.spacer.green, .section.green h4 {
+	color: #fff;
+}
+
+.spacer.yellow, .section.yellow {
+	background: #fabe1e;
+	color: #003c5f;
+}
+
+.section.orange h4, .section.blue h4 {
+	color: #f7f7f7;
+}
+
+#about h4, #philosophie h4, #contact h4 {
+	color: #64000a;
+}
+
+.section.orange p, .section.blue p, .section.blue ul {
 	color: #313131;
 }
 
@@ -65,7 +84,7 @@ ul#menu-main>li>a:focus, ul#menu-main>li>a:active, ul#menu-main>li>a.selected, u
 /* blog */
 
 .home-post .post-meta {
-	background: #fbeb78;
+	background: #f7f7f7;
 }
 
 /* com */
@@ -85,12 +104,12 @@ ul#menu-main>li>a:focus, ul#menu-main>li>a:active, ul#menu-main>li>a.selected, u
 /* works */
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-	background: #a8e2dc;
-	border-color: #a8e2dc;
+	background: #8ACFE7;
+	border-color: #8ACFE7;
 }
 
 .portfolio .portfolio-overlay {
-	background: #a8e2dc;
+	background: #8ACFE7;
 }
 
 /* icon */
