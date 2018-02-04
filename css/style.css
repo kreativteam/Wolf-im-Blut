@@ -779,7 +779,6 @@ section#services p {
 .service-box {
 	text-align: center;
 	padding: 20px;
-	
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -861,8 +860,6 @@ section#services.section.orange .service-box:hover {
 	float: right;
 	color: #ddd;
 }
-
-
 
 /* === section about === */
 
