@@ -1595,6 +1595,8 @@ i.icon-white {
 	}
 	.navbar-inner h1.brand {
 		margin-left: 20px;
+		font-size: 1.75em;
+		font-weight: 400;
 	}
 	.navbar-inner .btn-navbar {
 		margin: 20px 20px 0;
@@ -1624,9 +1626,20 @@ i.icon-white {
 	}
 	.navbar-inner h1.brand {
 		margin-left: 20px;
+		font-size: 1.75em;
+		font-weight: 400;
 	}
 	.navbar-inner .btn-navbar {
 		margin: 20px 20px 0;
+	}
+	#main-flexslider ul.slides li p {
+		font-size: 50px;
+		line-height: 1;
+	}
+	blockquote.large {
+		font-size: 30px;
+		font-weight: 500;
+		line-height: 1.1em;
 	}
 	.container {
 		padding-right: 20px;
@@ -1647,6 +1660,20 @@ i.icon-white {
 /* Smaller screens ----------- */
 
 @media (max-width: 480px) {
+	.navbar .brand a {
+		margin-left: 0px;
+		font-size: 1.2em;
+		font-weight: 300;
+	}
+	blockquote.large {
+		font-size: 25px;
+		font-weight: 500;
+		line-height: 1.1em;
+	}
+	#main-flexslider ul.slides li p {
+		font-size: 40px;
+		line-height: 1;
+	}
 	#header-wrapper {
 		padding-top: 80px;
 	}
@@ -1665,6 +1692,20 @@ i.icon-white {
 /* Smartphones (portrait and landscape) ----------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.navbar .brand a {
+		margin-left: 0px;
+		font-size: 1.0em;
+		font-weight: 300;
+	}
+	blockquote.large {
+		font-size: 25px;
+		font-weight: 500;
+		line-height: 1.1em;
+	}
+	#main-flexslider ul.slides li p {
+		font-size: 40px;
+		line-height: 1;
+	}
 	section.section {
 		padding: 1em 0;
 	}
